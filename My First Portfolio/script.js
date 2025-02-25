@@ -1,3 +1,4 @@
+// Hamburger
 const hamburger = document.getElementById('hamburger'); 
 const menu = document.querySelector('.menu'); 
 
@@ -16,6 +17,7 @@ hamburger.addEventListener('click', function () {
 	} 
 });
 
+// Message Form
 const form = document.querySelector('form');
 const fullName = document.getElementById("name");
 const email = document.getElementById("email");
@@ -55,11 +57,3 @@ form.addEventListener("submit",(e) => {
 	return false;
 });
 
-
-document.addEventListener('DOMContentLoaded', () => {
-    const toggleButton = document.getElementById('darkModeToggle');
-    
-    toggleButton.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
-    });
-});
