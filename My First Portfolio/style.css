@@ -7,22 +7,21 @@ body {
 	font-family: 'Poppins', sans-serif;
 } 
 
-.dark-mode {
-    background-color: #2B3152;
-    color: #ffffff;
-}
-
 .toggle-container {
     position: absolute;
     top: 18px;
     right: 36px;
 }
-
-#darkModeToggle {
-    background: none;
-    border: none;
-    cursor: pointer;
+/* Header Section */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: #2b2c2c;
 }
+
 
 /* Header Navbar Styles */
 .navbar { 
@@ -221,31 +220,45 @@ body {
 	height: 400px; 
 	width: 450px; 
 	padding: 5rem 5rem 5rem 1rem; 
-} 
-
-/* Portfolio section styles */
-.portfolio { 
-	margin: auto 0; 
-	padding: 0 5rem; 
-} 
-
-.port-card { 
-	padding: 0 !important; 
-	background:none !important; 
-	border: 2px solid #000; 
-	
 }
 
-.port-card .image { 
-	width: 100%; 
-} 
+/* Portfolio section styles */
+.portfolio {
+    background-color: #2B3152; 
+    padding: 5rem 5rem; 
+    color: #fff;
+}
 
-.port-card .image img { 
-	height: 200px; 
-	width: 100%; 
-	border-top-right-radius: 20px; 
-	border-top-left-radius: 20px; 
-} 
+.portfolio-heading h1 {
+    color: #fff; 
+}
+
+.port-card {
+    background: none !important;
+    border: 2px solid #fff; 
+    color: #fff; 
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.port-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.port-card .image img {
+    height: 200px;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.port-card .greet-heading {
+    color: #fff; 
+}
+
+.port-card .small-para {
+    color: #ddd; 
+}
 
 
 /* Services section styles */
@@ -256,6 +269,7 @@ body {
 	flex-direction: column; 
 	margin: auto 0; 
 	padding: 0 5rem; 
+	background-color: #2B3152;
 } 
 
 .my-row { 
@@ -277,9 +291,16 @@ body {
 	align-items: center; 
 	justify-content: center; 
 	border-radius: 20px; 
+	border: 2px solid #fff; 
 	background-image: linear-gradient(#74D7BB, #53C8B6, #35A99C); 
 	padding: 1rem; 
+	transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 } 
+
+.my-card:hover{
+	transform: translateY(-10px); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
 
 .icon { 
 	height: 100px; 
