@@ -1,6 +1,6 @@
 # Meahadi Hasan - Portfolio
 
-![Portfolio Screenshot](Images/BG-Img.jpeg)
+![Portfolio Screenshot](Images/Profile-picture-for- about.png)
 
 Welcome to my personal portfolio website! This project showcases my skills, projects, and contact information. It is built using **HTML**, **CSS**, and **JavaScript**, with a responsive design that works seamlessly across all devices.
 
