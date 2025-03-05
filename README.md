@@ -36,19 +36,19 @@ It is built using **HTML**, **CSS**, and **JavaScript**, with a responsive desig
 
 2. **Open the Project**:
 
-       Open the index.html file in your browser to view the portfolio.
+    Open the index.html file in your browser to view the portfolio.
 
 3. **Modify the Content**:
 
-       Update the index.html file to change the text, images, and links.
+    Update the index.html file to change the text, images, and links.
 
-       Modify the style.css file to customize the styling.
+    Modify the style.css file to customize the styling.
 
-       Update the script.js file to change the behavior of the contact form or other interactive elements.
+    Update the script.js file to change the behavior of the contact form or other interactive elements.
 
 4. **Deploy**:
 
-       You can deploy this portfolio on any static hosting service like GitHub Pages, Netlify, or Vercel.
+    You can deploy this portfolio on any static hosting service like GitHub Pages, Netlify, or Vercel.
 
 ## Project Structure
       portfolio/
