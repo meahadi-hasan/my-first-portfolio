@@ -1,6 +1,7 @@
 # Meahadi Hasan - Portfolio
 
-Welcome to my personal portfolio website! This project showcases my skills, projects, and contact information. It is built using **HTML**, **CSS**, and **JavaScript**, with a responsive design that works seamlessly across all devices.
+Welcome to my personal portfolio website! This project showcases my skills, projects, and contact information. 
+It is built using **HTML**, **CSS**, and **JavaScript**, with a responsive design that works seamlessly across all devices.
 
 ---
 
@@ -50,15 +51,15 @@ Welcome to my personal portfolio website! This project showcases my skills, proj
        You can deploy this portfolio on any static hosting service like GitHub Pages, Netlify, or Vercel.
 
 ## Project Structure
-portfolio/
-├── Images/                  # Contains all images used in the project
-├── index.html               # Main HTML file
-├── style.css                # Main CSS file
-├── responsive.css           # Responsive CSS for mobile and tablet devices
-├── script.js                # JavaScript for interactivity
-├── README.md                # Project documentation
+      portfolio/
+     ├── Images/                  # Contains all images used in the project
+     ├── index.html               # Main HTML file
+     ├── style.css                # Main CSS file
+     ├── responsive.css           # Responsive CSS for mobile and tablet devices
+     ├── script.js                # JavaScript for interactivity
+     ├── README.md                # Project documentation
 
 ## Live Demo
-You can view the live demo of this portfolio [here](https://portfolio-meahadi.vercel.app).
+You can view the live demo of this portfolio [Here](https://portfolio-meahadi.vercel.app).
 
 Thank you for visiting my portfolio! 😊
