@@ -51,13 +51,28 @@ It is built using **HTML**, **CSS**, and **JavaScript**, with a responsive desig
     You can deploy this portfolio on any static hosting service like GitHub Pages, Netlify, or Vercel.
 
 ## Project Structure
-      portfolio/
-     ├── Images/                  # Contains all images used in the project
-     ├── index.html               # Main HTML file
-     ├── style.css                # Main CSS file
-     ├── responsive.css           # Responsive CSS for mobile and tablet devices
-     ├── script.js                # JavaScript for interactivity
-     ├── README.md                # Project documentation
+      My First Portfolio/
+    ├── assets/
+    │   ├── docs/
+    │   │   ├── MD. MEAHADI HASAN CV.pdf
+    │   │   ├── Md. Meahadi Hasan Resume.pdf
+    │   ├── images/
+    │   │   ├── icons/
+    │   │   │   ├── Favicon-32x32.png
+    │   │   ├── others/
+    │   │   │   ├── SEO.jpg
+    │   │   │   ├── Web Design.jpg
+    │   │   │   ├── Web Development.jpg
+    │   │   │   ├── BG-Img.jpeg
+    │   │   │   ├── Profile-picture-for-about.png
+    │   ├── css/
+    │   │   ├── responsive.css
+    │   │   ├── style.css
+    │   ├── js/
+    │   │   ├── script.js
+    ├── index.html
+    ├── README.md
+
 
 ## Live Demo
 You can view the live demo of this portfolio [Here](https://portfolio-meahadi.vercel.app).
